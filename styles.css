@@ -60,17 +60,17 @@ body {
     margin-bottom: 2rem;
 }
 
-.price {
+.price_container {
     display: flex;
     gap: 1rem;
     align-items: center;
     margin-bottom: 2rem;
 }
 
-.price .new_price {
+.price_container .new_price {
     color: hsl(158, 36%, 37%);
 }
-.price .old_price {
+.price_container .old_price {
     font-family: "Montserrat";
     color: hsl(228, 12%, 48%);
     text-decoration: line-through;
